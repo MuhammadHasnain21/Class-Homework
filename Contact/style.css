@@ -1,0 +1,63 @@
+#heading {
+    border: 2px solid #000;
+    padding: 10px;
+    text-align: center;
+    background-color: gray;
+}
+
+h1 {
+    margin: 0;
+}
+
+.content {
+    font-family: Arial, sans-serif;
+    border: 1px solid black;
+    background-color: rgb(214, 208, 208);
+    box-shadow: 0 0 10px rgb(167, 59, 59);
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.hasnain {
+    color: rgb(58, 55, 52);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Center items vertically */
+    background-color: aliceblue;
+    padding: 20px 0;
+}
+
+.abc {
+    text-decoration: none;
+    font-size: 30px;
+    color: #333;
+}
+
+/* Modify .list to display as inline-block for horizontal layout */
+.list {
+    display: inline-block;
+    margin-right: 20px; /* Add some spacing between list items */
+}
+
+.unorder {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li a:hover {
+    background-color: blue;
+}
